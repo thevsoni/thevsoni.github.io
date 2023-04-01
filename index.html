@@ -159,22 +159,25 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span> </h2>
 
-        <form action="#">
+        <!-- <form action="#"> -->
+        <!-- i am using formspree.io to get email message without backend db -->
+        <form action="https://formspree.io/f/xgebnlzj" method="post">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="fullName" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="mobile" placeholder="Mobile Number">
+                <input type="text" name="eSubject" placeholder="Email Subject">
             </div>
-            <!-- <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea> -->
-            <textarea name="" id="" cols="30" rows="10"
-                placeholder="You can send me email directly on vs332837@gmail.com , recommendate"></textarea>
+            <textarea name="textArea" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <!-- <textarea name="" id="" cols="30" rows="10"
+                placeholder="You can send me email directly on vs332837@gmail.com , recommendate"></textarea> -->
 
-            <!-- <input type="submit" value="Send Message" class="btn"> -->
-            <a href="https://mail.google.com" target="_blank" class="btn">Send Message on vs332837@gmail.com</a>
+            <input type="submit" value="Send Message" class="btn">
+            <!-- <a href="https://mail.google.com" target="_blank" class="btn">Send Message on vs332837@gmail.com</a> -->
         </form>
+
     </section>
 
     <!-- footer design -->
